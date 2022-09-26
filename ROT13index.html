@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="ROT13style.css">
+    <!-- Global Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- FontsAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ROT13 Chiper -->    
+    <div class="container">
+
+        <div id="box">
+            <h2> ROT13 Cipher Translator </h2>
+
+            <div class='input'>
+                <label id='ROT13label' for='ROT13text'></label>
+                <input type='text' id='ROT13text' placeholder='Type something'>
+            </div>
+        </div>
+
+        <div id="box">
+            <div class='button'>
+                <button id="translate">TRANSLATE</button>
+                    <div class="span">
+                        <span class="translated">TRANSLATION</span>
+                    </div>
+            </div>
+        </div>
+
+        <div id="box">
+            <div id='examples'>
+                <h2>Try out these below:</h2>
+                <p>SERR PBQR PNZC</p>
+                <p>SERR CVMMN!</p>
+                <p>SERR YBIR?</p> 
+                <p>GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT</p>
+            </div>
+        </div>
+
+        <div id="box">
+            <div id="works">
+                <h2>How does it works?</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/1200px-ROT13_table_with_example.svg.png">
+            </div>
+        </div>
+
+    </div>
+    <!-- SCRIPTS -->
+        
+    <script src="ROT13main.js"></script>
+</body>
+</html>
